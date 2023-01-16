@@ -27,6 +27,7 @@ public class Main {
         password=sc.next();
         message= user.withdrawMoney(amount, password);
         System.out.println(message);
+        System.out.println("Here is change");
     }
 
 
